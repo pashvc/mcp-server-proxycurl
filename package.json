@@ -1,0 +1,41 @@
+{
+  "name": "@pashvc/mcp-server-proxycurl",
+  "version": "0.1.0",
+  "description": "MCP server for Proxycurl API - enriching people and company profiles",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "watch": "tsc --watch",
+    "dev": "tsx watch src/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector dist/index.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch",
+    "test:coverage": "NODE_OPTIONS='--experimental-vm-modules' jest --coverage",
+    "test:integration": "NODE_OPTIONS='--experimental-vm-modules' jest --testMatch='**/*.integration.test.ts'"
+  },
+  "keywords": [
+    "mcp",
+    "proxycurl",
+    "linkedin",
+    "profile",
+    "enrichment"
+  ],
+  "author": "Pavel Sukhachev",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "bin": {
+    "mcp-server-proxycurl": "./dist/index.js"
+  }
+}

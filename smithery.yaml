@@ -1,0 +1,41 @@
+name: "@pashvc/mcp-server-proxycurl"
+description: "MCP server for Proxycurl API - enriching people and company profiles from LinkedIn, Twitter, and Facebook"
+author: "Pavel Sukhachev"
+version: "0.1.0"
+license: "MIT"
+mcp_version: "1.0.0"
+homepage: "https://github.com/pashvc/mcp-server-proxycurl"
+repository: "https://github.com/pashvc/mcp-server-proxycurl"
+
+keywords:
+  - proxycurl
+  - linkedin
+  - profile
+  - enrichment
+  - social-media
+  - people-data
+  - contact-discovery
+
+categories:
+  - "data-enrichment"
+  - "social-media"
+  - "sales-tools"
+
+required_env_vars:
+  - name: PROXYCURL_API_KEY
+    description: "Your Proxycurl API key (get one at https://nubela.co/proxycurl/pricing)"
+
+capabilities:
+  tools:
+    - name: get_person_profile
+      description: "Get enriched profile data for a person from LinkedIn, Twitter/X, or Facebook"
+  
+  prompts:
+    - name: analyze-profile
+      description: "Analyze a person's professional profile for insights"
+    - name: compare-candidates
+      description: "Compare multiple candidate profiles for a role"
+    - name: enrich-contact
+      description: "Enrich a contact with additional information"
+    - name: sales-research
+      description: "Research a prospect for sales outreach"

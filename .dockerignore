@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+.env.*
+*.log
+.DS_Store
+coverage
+.git
+.gitignore
+README.md
+*.test.ts
+*.integration.test.ts
+jest.config.js
+tsconfig.json
