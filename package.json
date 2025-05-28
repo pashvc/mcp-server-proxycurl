@@ -36,6 +36,6 @@
     "typescript": "^5.7.2"
   },
   "bin": {
-    "mcp-server-proxycurl": "./dist/index.js"
+    "mcp-server-proxycurl": "dist/index.js"
   }
 }

@@ -2,6 +2,14 @@
 
 An MCP (Model Context Protocol) server that integrates with [Proxycurl](https://nubela.co/proxycurl) API to enrich person and company profiles from LinkedIn, Twitter/X, and Facebook.
 
+---
+
+**👋 Open for Opportunities!**  
+I'm actively seeking new opportunities and collaborations. If you have interesting projects or job opportunities, feel free to reach out!  
+📧 **Contact:** pashvc@gmail.com
+
+---
+
 ## Features
 
 - 🔍 **Profile Enrichment**: Get detailed professional profiles from social media URLs
